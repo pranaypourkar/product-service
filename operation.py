@@ -5,7 +5,7 @@ def sub():
     pass
 
 def mul():
-    pass
+    return x*y
 
 def div():
     pass
