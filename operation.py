@@ -2,7 +2,7 @@ def add():
     return x+y
 
 def sub():
-    pass
+    return x-y
 
 def mul():
     return x*y
