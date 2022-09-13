@@ -9,6 +9,3 @@ def mul():
 
 def div():
     pass
-
-def add3():
-    return x+y+z
