@@ -21,8 +21,9 @@ public class ProductController {
     }
 	
     @GetMapping("/isAlive")
-    public String helloWorld() {
-        return "Product Services are alive";
+    public String isAlive() {
+    	System.out.println("Product Services are alive");
+        return "Product Servicec is alive";
     }
     
     @GetMapping("/getAllProducts")
