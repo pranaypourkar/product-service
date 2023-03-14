@@ -22,12 +22,13 @@ public class ProductController {
 	
     @GetMapping("/isAlive")
     public String isAlive() {
-    	System.out.println("Product Services are alive");
-        return "Product Servicec is alive";
+    	System.out.println("Product Service is alive");
+        return "Product Service is alive";
     }
     
     @GetMapping("/getAllProducts")
     public @NotNull Iterable<Product> getProducts() {
+    	System.out.println("Get All Products");
         return productService.getAllProducts();
     }
 }
