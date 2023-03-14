@@ -28,6 +28,7 @@ public class ProductController {
     
     @GetMapping("/getAllProducts")
     public @NotNull Iterable<Product> getProducts() {
+    	System.out.println("Get All Products");
         return productService.getAllProducts();
     }
 }
